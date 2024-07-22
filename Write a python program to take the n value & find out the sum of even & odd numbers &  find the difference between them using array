@@ -1,0 +1,11 @@
+list1=[1,3,6,17,22,32,10,55,67,80,11]
+sum_even=0
+sum_odd=0
+for i in list1:
+    if i%2==0:
+        sum_even=sum_even+i
+    else:
+        sum_odd=sum_odd+i
+print("sum_even",sum_even)
+print("sum_odd",sum_odd)
+print("difference",sum_even-sum_odd)
