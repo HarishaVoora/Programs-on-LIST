@@ -1,0 +1,10 @@
+list1=['2','3','6','6','5']
+new_list1=[]
+duplicate_list1=[]
+for i in list1:
+    if i not in new_list1:
+        new_list1.append(i)
+    else:
+        duplicate_list1.append(i)
+new_list1.sort()
+print(new_list1[-2])
